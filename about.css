@@ -1,0 +1,28 @@
+body {
+  background-color: #d3d6cb;
+}
+.navbar {
+  background-color: #1e3646;
+}
+#about {
+  margin-top: 150px;
+}
+
+#about img {
+  width: 85%;
+}
+.social {
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-left: -6vh;
+}
+
+.social li {
+  padding: 10px;
+  color: black;
+}
+hr {
+  border: solid #435252 2px;
+  border-bottom: none;
+  width: 10%;
+}

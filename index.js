@@ -11,3 +11,13 @@ sr.reveal('.lead', {
   origin: 'bottom',
   distance: '300px',
 })
+sr.reveal('.about-img', {
+  duration: 2000,
+  distance: '300px',
+  origin: 'top',
+})
+sr.reveal('.about-info', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '300px',
+})
