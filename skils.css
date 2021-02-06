@@ -1,0 +1,58 @@
+body {
+}
+.navbar {
+  background-color: #1e3646;
+}
+
+#skills {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#skills .round {
+  min-height: 240px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#skills .round strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  transform: translate(-50%);
+  font-size: 30px;
+  font-weight: 50;
+}
+
+#skills span {
+  display: block;
+  color: #1f5375;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.pics {
+  width: 500px;
+  margin: 20px auto;
+}
+.card {
+  width: 50%;
+  border: none;
+}
+.card img {
+  width: 55%;
+  padding: 10px 10px;
+}
+.card-title {
+  margin-right: 95px;
+  color: #1f5375;
+}
+.tec {
+  margin-right: 120px;
+  color: #305670;
+}
+.pro {
+  color: #305670;
+}

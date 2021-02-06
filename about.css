@@ -1,5 +1,5 @@
 body {
-  background-color: #d3d6cb;
+  /* background-color: #d3d6cb; */
 }
 .navbar {
   background-color: #1e3646;
@@ -20,9 +20,4 @@ body {
 .social li {
   padding: 10px;
   color: black;
-}
-hr {
-  border: solid #435252 2px;
-  border-bottom: none;
-  width: 10%;
 }
