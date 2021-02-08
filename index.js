@@ -22,6 +22,12 @@ sr.reveal('.about-info', {
   distance: '300px',
 })
 
+sr.reveal('.projects', {
+  duration: 2000,
+  origin: 'left',
+  distance: '-300px',
+})
+
 sr.reveal('.card', {
   duration: 2500,
   origin: 'bottom',

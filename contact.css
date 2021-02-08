@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./bg2.jpg');
+}
+
+.navbar {
+  background-color: #1e3646;
+}
+.contact {
+  margin-top: 150px;
+}
+.info h3 {
+  color: rgb(175, 201, 230);
+}
+.info h3 i {
+  color: rgb(68, 117, 173);
+}

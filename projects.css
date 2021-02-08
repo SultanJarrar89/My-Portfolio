@@ -1,0 +1,52 @@
+#projects {
+  margin-top: 100px;
+}
+.navbar {
+  background-color: #1e3646;
+}
+.card {
+  box-shadow: 2px 2px 2px rgb(40, 40, 40, 0.5);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.card:hover {
+  transform: translateY(-1rem) scale(1.05);
+}
+.card .fa:hover {
+  color: aliceblue;
+}
+h2 {
+  font-family: sans-serif;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 40px;
+  max-width: 600px;
+  position: relative;
+}
+h2:before {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+h2:after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+.containr h2 span {
+  background: #fff;
+  color: #1e3646;
+  font-size: 100px;
+}
