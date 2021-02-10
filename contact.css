@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./bg2.jpg');
+    url('/assets/pics/bg2.jpg');
 }
 
 .navbar {
@@ -10,7 +10,10 @@ body {
   margin-top: 150px;
 }
 .info h3 {
-  color: rgb(175, 201, 230);
+  color: rgb(187, 201, 212);
+}
+.info p {
+  color: rgb(186, 208, 235);
 }
 .info h3 i {
   color: rgb(68, 117, 173);

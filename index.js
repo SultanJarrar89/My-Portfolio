@@ -6,6 +6,10 @@ sr.reveal('.cover-heading', {
   origin: 'top',
   distance: '300px',
 })
+sr.reveal('.name', {
+  duration: 5000,
+  origin: 'bottom',
+})
 sr.reveal('.lead', {
   duration: 2000,
   origin: 'bottom',

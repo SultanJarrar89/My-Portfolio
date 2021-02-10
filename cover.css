@@ -27,7 +27,7 @@ html,
 body {
   height: 100vh;
   background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-    url(joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    url(/assets/pics/cover.jpg);
 }
 
 body {
@@ -75,7 +75,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: rgb(78, 68, 68);
   border-bottom-color: #fff;
 }
 
@@ -104,9 +104,4 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, 0.5);
-}
-
-footer ul {
-  list-style-type: none;
-  font-size: 1.5rem;
 }
