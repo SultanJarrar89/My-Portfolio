@@ -37,7 +37,7 @@ sr.reveal('.card', {
   origin: 'bottom',
 })
 
-screen.reveal(Circlle('.round')),
+sr.reveal(Circlle('.round')),
   {
     duration: 2000,
   }

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  background: linear-gradient(#fff, rgb(125, 174, 223), rgb(221, 226, 231));
+  font-family: 'Raleway', sans-serif;
+}
+
 .navbar {
   background-color: #1e3646;
 }
@@ -38,6 +45,7 @@
 .card {
   width: 50%;
   border: none;
+  background-color: inherit;
 }
 .card img {
   width: 55%;
@@ -53,34 +61,4 @@
 }
 .pro {
   color: #305670;
-}
-h2 {
-  font-family: sans-serif;
-  margin: 100px auto;
-  text-align: center;
-  font-size: 40px;
-  max-width: 600px;
-  position: relative;
-}
-h2:before {
-  content: '';
-  display: block;
-  width: 120px;
-  height: 2px;
-  background: #000;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  z-index: -2;
-}
-h2:after {
-  content: '';
-  display: block;
-  width: 120px;
-  height: 2px;
-  background: #000;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  z-index: -2;
 }

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 body {
-  /* background-color: #d3d6cb; */
+  background: linear-gradient(#fff, rgb(125, 174, 223), rgb(221, 226, 231));
+  font-family: 'Raleway', sans-serif;
 }
 .navbar {
   background-color: #1e3646;
