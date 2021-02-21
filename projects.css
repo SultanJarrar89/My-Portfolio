@@ -17,8 +17,7 @@ hr {
   box-shadow: 2px 2px 2px rgb(40, 40, 40, 0.5);
   cursor: pointer;
   transition: all 0.5s;
-  width: 18rem !important;
-  min-height: 100%;
+  width: 18rem;
 }
 .card:hover {
   transform: translateY(-1rem) scale(1.05);
