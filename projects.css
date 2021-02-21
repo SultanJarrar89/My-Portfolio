@@ -24,6 +24,11 @@ hr {
 .card .fa:hover {
   color: aliceblue;
 }
+.card video {
+  min-width: 100%;
+  width: auto;
+  height: auto;
+}
 
 .containr h2 span {
   background: #fff;
@@ -41,4 +46,10 @@ hr {
   .projects {
     margin-left: 5vw;
   }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  min-height: 0.01px;
 }
