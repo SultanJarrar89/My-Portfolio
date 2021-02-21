@@ -1,7 +1,7 @@
 window.sr = ScrollReveal()
 
 window.sr = ScrollReveal()
-sr.reveal('.cover-heading', {
+sr.reveal('.heading', {
   duration: 2000,
   origin: 'top',
   distance: '300px',
@@ -10,10 +10,14 @@ sr.reveal('.name', {
   duration: 5000,
   origin: 'bottom',
 })
-sr.reveal('.lead', {
+sr.reveal('.info', {
   duration: 2000,
   origin: 'bottom',
   distance: '300px',
+})
+sr.reveal('.port', {
+  duration: 7000,
+  origin: 'bottom',
 })
 sr.reveal('.about-img', {
   duration: 2000,
