@@ -18,15 +18,13 @@ hr {
   cursor: pointer;
   transition: all 0.5s;
   width: 18rem !important;
+  min-height: 100%;
 }
 .card:hover {
   transform: translateY(-1rem) scale(1.05);
 }
 .card .fa:hover {
   color: aliceblue;
-}
-.card video {
-  min-height: 40% !important;
 }
 
 .containr h2 span {
