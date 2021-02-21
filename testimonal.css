@@ -33,3 +33,12 @@ a {
     width: 55vw;
   }
 }
+@media screen and (max-width: 970px) {
+  .img1 {
+    width: 50vw;
+    margin-left: 20vw;
+  }
+  .andy {
+    width: 40vw;
+  }
+}
