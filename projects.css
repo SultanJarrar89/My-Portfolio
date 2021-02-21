@@ -26,9 +26,7 @@ hr {
   color: aliceblue;
 }
 .card video {
-  min-width: 100%;
-  width: auto;
-  height: auto;
+  min-height: 40% !important;
 }
 
 .containr h2 span {
@@ -43,10 +41,7 @@ hr {
     rgb(69, 133, 228)
   );
 }
-.row:before,
-.row:after {
-  display: none !important;
-}
+
 @media screen and (max-width: 570px) {
   .projects {
     margin-left: 5vw;
