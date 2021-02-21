@@ -54,3 +54,13 @@ function Circlle(el) {
 }
 
 Circlle($('.round'))
+
+function speed(el) {
+  let videos = $(el)
+  for (let index = 0; index < videos.length; index++) {
+    videos[index].playbackRate = 2.5
+    console.log(videos[index])
+  }
+}
+
+speed($('video'))
