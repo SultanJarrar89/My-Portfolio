@@ -10,6 +10,9 @@ body {
 .navbar {
   background-color: #1e3646;
 }
+a {
+  text-decoration: none;
+}
 #testimonial {
   margin-top: 150px;
 }
@@ -20,4 +23,13 @@ body {
 }
 .andy {
   margin-left: 100px;
+}
+@media screen and (max-width: 570px) {
+  .img1 {
+    width: 65vw;
+    margin-left: 20vw;
+  }
+  .andy {
+    width: 55vw;
+  }
 }
