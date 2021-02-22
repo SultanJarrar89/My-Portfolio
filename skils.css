@@ -63,7 +63,10 @@ body {
   color: #305670;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 570px) {
+  .container {
+    padding-right: 1vw;
+  }
   .pics {
     width: 120vw;
   }
