@@ -26,3 +26,10 @@ label,
 .btn:hover {
   color: rgb(189, 216, 238);
 }
+.form-control {
+  color: rgb(229, 232, 245);
+  background-color: wheat;
+}
+.form-control:focus {
+  color: rgb(229, 232, 245);
+}
