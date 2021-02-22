@@ -63,7 +63,7 @@ body {
   color: #305670;
 }
 
-@media only screen and (min-width: 420px) and (max-width: 760px) {
+@media only screen and (min-width: 412px) and (max-width: 760px) {
   .container-fluid {
     padding-right: 25vw;
   }
