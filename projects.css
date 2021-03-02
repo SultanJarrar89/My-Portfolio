@@ -28,11 +28,12 @@ hr {
 .card .fa:hover {
   color: aliceblue;
 }
-
-.containr h2 span {
-  background: #fff;
+h1 {
   color: #1e3646;
-  font-size: 100px;
+}
+.card-title {
+  color: #3d9ddd;
+  font-weight: 700;
 }
 .card-body {
   background: linear-gradient(
