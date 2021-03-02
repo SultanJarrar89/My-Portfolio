@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
   width: 100%;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
@@ -9,6 +12,9 @@ body {
 }
 .navbar {
   background-color: #1e3646;
+}
+h1 {
+  color: #1e3646;
 }
 a {
   text-decoration: none;
@@ -31,7 +37,7 @@ a {
   }
   .andy {
     width: 55vw;
-    margin-right: 100px;
+    margin-left: 65px;
   }
 }
 @media screen and (min-width: 570px) and (max-width: 983px) {
@@ -41,5 +47,6 @@ a {
   }
   .andy {
     width: 40vw;
+    margin-left: 160px;
   }
 }

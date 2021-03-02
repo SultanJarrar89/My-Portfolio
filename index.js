@@ -46,19 +46,6 @@ sr.reveal(Circlle('.round')),
     duration: 2000,
   }
 
-function Circlle(el) {
-  $(el)
-    .circleProgress({ fill: { color: '#1e3646' } })
-    .on('circle-animation-progress'),
-    function (event, progress, stepValue) {
-      $(this)
-        .find('strong')
-        .text(String(stepValue.toFixed(2)).substr(2) + '%')
-    }
-}
-
-Circlle($('.round'))
-
 function speed(el) {
   let videos = $(el)
   for (let index = 0; index < videos.length; index++) {

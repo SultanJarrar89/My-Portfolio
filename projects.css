@@ -2,6 +2,10 @@
 body {
   background: linear-gradient(#fff, rgb(125, 174, 223), rgb(221, 226, 231));
   font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
 }
 hr {
   color: white;
@@ -11,13 +15,12 @@ hr {
   margin-top: 100px;
 }
 .navbar {
-  background-color: #355063;
+  background-color: #1e3646;
 }
 .card {
   box-shadow: 2px 2px 2px rgb(40, 40, 40, 0.5);
   cursor: pointer;
   transition: all 0.5s;
-  width: 18rem;
 }
 .card:hover {
   transform: translateY(-1rem) scale(1.05);
@@ -38,9 +41,12 @@ hr {
     rgb(69, 133, 228)
   );
 }
-
-@media screen and (max-width: 570px) {
-  .projects {
-    margin-left: 5vw;
-  }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
+/* 
+@media screen and (max-width: 570px) {
+  .container-fluid {
+    padding-right: 10px;
+  }
+} */

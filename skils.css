@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(#fff, rgb(125, 174, 223), rgb(221, 226, 231));
   font-family: 'Raleway', sans-serif;
+
+  height: 100vh;
 }
 
 .navbar {
@@ -10,81 +18,28 @@ body {
 }
 
 #skills {
-  margin-top: 100px;
-  text-align: center;
+  margin-top: 150px;
 }
 
-#skills .round {
-  min-height: 240px;
-  margin-top: 30px;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-#skills .round strong {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  transform: translate(-50%);
-  font-size: 30px;
-  font-weight: 50;
-}
-
-#skills span {
-  display: block;
-  color: #1f5375;
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.pics {
-  width: 500px;
-  margin: 20px auto;
-}
 .card {
-  width: 50%;
+  background: inherit;
   border: none;
-  background-color: inherit;
-}
-.card img {
-  width: 55%;
   padding: 10px 10px;
 }
 .card-title {
-  margin-right: 95px;
-  color: #1f5375;
+  color: #1e3646;
 }
-.tec {
-  margin-right: 10vw;
-  color: #305670;
+.card img {
+  height: 100%;
+  width: 150px;
 }
-.pro {
-  color: #305670;
+h1 {
+  font-weight: 900;
+  color: #1e3646;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 760px) {
-  .container-fluid {
-    padding-right: 25vw;
-  }
-  .pics {
-    width: 120vw;
-  }
-  .card-title {
-    font-size: small;
-  }
-  .tec {
-    margin-left: 50px;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .pics {
-    width: 120vw;
-  }
-  .card-title {
-    font-size: small;
-  }
-  .tec {
-    margin-left: 50px;
+@media screen and (max-width: 570px) {
+  .row {
+    padding-left: 15vw;
   }
 }
