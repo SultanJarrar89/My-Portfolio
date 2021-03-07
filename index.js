@@ -41,11 +41,6 @@ sr.reveal('.card', {
   origin: 'bottom',
 })
 
-sr.reveal(Circlle('.round')),
-  {
-    duration: 2000,
-  }
-
 function speed(el) {
   let videos = $(el)
   for (let index = 0; index < videos.length; index++) {
